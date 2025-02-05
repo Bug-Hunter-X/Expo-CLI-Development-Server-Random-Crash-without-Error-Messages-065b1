@@ -1,0 +1,5 @@
+This repository demonstrates a bug in Expo CLI where the development server crashes randomly without providing any error messages in the terminal.  The app continues to run on the device, but the server becomes unresponsive, hindering the development process.
+
+The `expoBug.js` file shows a simplified example of an app that might trigger the crash (although the exact cause remains elusive).  The `expoBugSolution.js` file contains a potential workaround or solution to the issue.  However, because the root cause of the server crash is unknown, this solution might not apply in all cases.
+
+Further investigation is needed to pinpoint the precise reason for this issue, and potential solutions might involve updates to Expo CLI, changes in project configuration, or identifying specific problematic code patterns.
